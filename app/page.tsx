@@ -1,6 +1,5 @@
 import React from 'react'
 import {Button} from '@/components/ui/button'
-
 const Page = () => {
   return (
     <div>
@@ -12,5 +11,4 @@ const Page = () => {
     </div>
   )
 }
-
 export default Page
