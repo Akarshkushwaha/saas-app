@@ -1,11 +1,13 @@
 import React from 'react'
-import {PricingTable} from "@clerk/nextjs";
+
+export const dynamic = 'force-dynamic';
+import { PricingTable } from "@clerk/nextjs";
 
 const Subscription = () => {
   return (
     <main>
-      <PricingTable/>
-      
+      <PricingTable />
+
     </main>
   )
 }

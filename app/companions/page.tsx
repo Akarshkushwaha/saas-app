@@ -1,9 +1,11 @@
 
-import {getAllCompanions} from "@/lib/actions/companion.actions";
+import { getAllCompanions } from "@/lib/actions/companion.actions";
 import CompanionCard from "@/components/CompanionCard";
-import {getSubjectColor} from "@/lib/utils";
+import { getSubjectColor } from "@/lib/utils";
 import SearchInput from "@/components/SearchInput";
 import SubjectFilter from "@/components/SubjectFilter";
+
+export const dynamic = 'force-dynamic';
 
 const CompanionsLibrary = async ({ searchParams }: SearchParams) => {
     const filters = await searchParams;
